@@ -1,0 +1,440 @@
+(1460, 288)
+(1460,)
+(1459, 288)
+(1460, 288)
+(1460,)
+num of splits
+10
+Creating train and test sets for blending.
+0 LassoCV(alphas=[1, 0.1, 0.001, 0.0005], copy_X=True, cv=None, eps=0.001,
+    fit_intercept=True, max_iter=1000, n_alphas=100, n_jobs=1,
+    normalize=False, positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)
+Fold 0
+0.0287260912711
+Fold 1
+0.0127723105186
+Fold 2
+0.0101930033933
+Fold 3
+0.00967678465442
+Fold 4
+0.00757795005418
+Fold 5
+0.0120977807448
+Fold 6
+0.00781424456966
+Fold 7
+0.109057001749
+Fold 8
+0.0286005816786
+Fold 9
+0.00844751164819
+1 ElasticNet(alpha=0.001, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+Fold 0
+0.0259078674503
+Fold 1
+0.012406784959
+Fold 2
+0.0101550875746
+Fold 3
+0.0097101209718
+Fold 4
+0.0076061271255
+Fold 5
+0.0120897108914
+Fold 6
+0.00805959973217
+Fold 7
+0.108834601642
+Fold 8
+0.0282509904193
+Fold 9
+0.00866395314254
+2 BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
+Fold 0
+0.0265755290111
+Fold 1
+0.013678817957
+Fold 2
+0.0101387774858
+Fold 3
+0.0100337415459
+Fold 4
+0.00825747142718
+Fold 5
+0.0132692985642
+Fold 6
+0.00782479333799
+Fold 7
+0.121674564239
+Fold 8
+0.0279938276069
+Fold 9
+0.0104293046063
+
+Blending.
+rescale to original one
+Saving Results.
+error [ 0.02349633  0.02316848  0.02498761]
+[ 0.33847026  0.34325973  0.31827001]
+[ 11.69404103  11.93443419  12.10671414 ...,  12.04386619  11.68786084
+  12.33241466]
+rescale to original one
+Saving Results.
+
+(1455,)
+(1459, 287)
+(1455, 287)
+(1455,)
+num of splits
+10
+Creating train and test sets for blending.
+0 LassoCV(alphas=[1, 0.1, 0.001, 0.0005], copy_X=True, cv=None, eps=0.001,
+    fit_intercept=True, max_iter=1000, n_alphas=100, n_jobs=1,
+    normalize=False, positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)
+Fold 0
+0.0219373321657
+Fold 1
+0.0118101928679
+Fold 2
+0.00988702987294
+Fold 3
+0.0092858800562
+Fold 4
+0.00656650341151
+Fold 5
+0.0125867520971
+Fold 6
+0.00810512667574
+Fold 7
+0.00647582015285
+Fold 8
+0.0290884864943
+Fold 9
+0.00740340693467
+1 ElasticNet(alpha=0.001, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+Fold 0
+0.0199083910202
+Fold 1
+0.0117603203358
+Fold 2
+0.00982717714989
+Fold 3
+0.0092768223998
+Fold 4
+0.00660165879448
+Fold 5
+0.0126268174102
+Fold 6
+0.00821112748515
+Fold 7
+0.00661868827466
+Fold 8
+0.0290332597914
+Fold 9
+0.00748386536019
+2 BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
+Fold 0
+0.0198335715027
+Fold 1
+0.0121248053126
+Fold 2
+0.00964573157559
+Fold 3
+0.00863797950009
+Fold 4
+0.00690409679165
+Fold 5
+0.0136228926296
+Fold 6
+0.00778520311155
+Fold 7
+0.00754432277252
+Fold 8
+0.0282370294551
+Fold 9
+0.00815403171808
+
+Blending.
+rescale to original one
+Saving Results.
+error [ 0.01231465  0.01213481  0.01224897]
+[ 0.33110578  0.33601284  0.33288138]
+[ 11.71860101  11.95141096  12.11925944 ...,  12.06682205  11.68308193
+  12.32915439]
+rescale to original one
+Saving Results.
+(1455, 242)
+(1455,)
+(1459, 242)
+(1455, 242)
+(1455,)
+num of splits
+10
+Creating train and test sets for blending.
+0 LassoCV(alphas=[1, 0.1, 0.001, 0.0005], copy_X=True, cv=None, eps=0.001,
+    fit_intercept=True, max_iter=1000, n_alphas=100, n_jobs=1,
+    normalize=False, positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)
+Fold 0
+0.0220718817298
+Fold 1
+0.0120418885402
+Fold 2
+0.00978736514956
+Fold 3
+0.00923515930116
+Fold 4
+0.00678069684965
+Fold 5
+0.0127252474417
+Fold 6
+0.00752475874041
+Fold 7
+0.00716851921803
+Fold 8
+0.0287016600089
+Fold 9
+0.00835857578248
+1 ElasticNet(alpha=0.001, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+Fold 0
+0.020423264688
+Fold 1
+0.0120071835018
+Fold 2
+0.00974874688041
+Fold 3
+0.00922029481634
+Fold 4
+0.00682163074819
+Fold 5
+0.0127669250737
+Fold 6
+0.00763465195679
+Fold 7
+0.00725075259508
+Fold 8
+0.0286311018393
+Fold 9
+0.00844820823624
+2 BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
+Fold 0
+0.0199948247381
+Fold 1
+0.0122959754356
+Fold 2
+0.00973569887351
+Fold 3
+0.00855584192762
+Fold 4
+0.00746282608943
+Fold 5
+0.0136489726845
+Fold 6
+0.00695692046766
+Fold 7
+0.00794777582352
+Fold 8
+0.0281576463442
+Fold 9
+0.00855413660958
+
+Blending.
+rescale to original one
+Saving Results.
+error [ 0.01243958  0.01229528  0.01233106]
+[ 0.33106705  0.33495251  0.33398044]
+[ 11.70976906  11.97427728  12.11994719 ...,  12.05609505  11.69821281
+  12.33524595]
+rescale to original one
+Saving Results.
+(1455, 242)
+(1455,)
+(1459, 242)
+(1455, 242)
+(1455,)
+num of splits
+10
+Creating train and test sets for blending.
+0 LassoCV(alphas=[1, 0.1, 0.001, 0.0005], copy_X=True, cv=None, eps=0.001,
+    fit_intercept=True, max_iter=1000, n_alphas=100, n_jobs=1,
+    normalize=False, positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)
+Fold 0
+0.0206900869226
+Fold 1
+0.0119355963355
+Fold 2
+0.00965288601124
+Fold 3
+0.00908764252814
+Fold 4
+0.00697423039622
+Fold 5
+0.0121806972103
+Fold 6
+0.00809844401646
+Fold 7
+0.00708931724529
+Fold 8
+0.028209472831
+Fold 9
+0.00828502363638
+1 ElasticNet(alpha=0.001, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+Fold 0
+0.0207958956575
+Fold 1
+0.0118788704888
+Fold 2
+0.00956759647931
+Fold 3
+0.00909204754305
+Fold 4
+0.00702334965047
+Fold 5
+0.0122321280703
+Fold 6
+0.00822290364372
+Fold 7
+0.00719605938625
+Fold 8
+0.028084498241
+Fold 9
+0.00841913938424
+2 BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
+Fold 0
+0.0202638760056
+Fold 1
+0.0120726834388
+Fold 2
+0.00937933783408
+Fold 3
+0.00862867013282
+Fold 4
+0.00760854741861
+Fold 5
+0.0130665486397
+Fold 6
+0.00732317123364
+Fold 7
+0.00809449687645
+Fold 8
+0.0274104275901
+Fold 9
+0.00837318777902
+
+Blending.
+rescale to original one
+Saving Results.
+error [ 0.01222034  0.01225125  0.01222209]
+[ 0.33362988  0.33278815  0.33358197]
+[ 11.71421895  11.97576602  12.11438968 ...,  12.06562701  11.69393329
+  12.33702133]
+rescale to original one
+Saving Results.
+(1455, 287)
+(1455,)
+(1459, 287)
+(1455, 287)
+(1455,)
+num of splits
+10
+Creating train and test sets for blending.
+0 LassoCV(alphas=[1, 0.1, 0.001, 0.0005], copy_X=True, cv=None, eps=0.001,
+    fit_intercept=True, max_iter=1000, n_alphas=100, n_jobs=1,
+    normalize=False, positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)
+Fold 0
+0.0219373321657
+Fold 1
+0.0118101928679
+Fold 2
+0.00988702987294
+Fold 3
+0.0092858800562
+Fold 4
+0.00656650341151
+Fold 5
+0.0125867520971
+Fold 6
+0.00810512667574
+Fold 7
+0.00647582015285
+Fold 8
+0.0290884864943
+Fold 9
+0.00740340693467
+1 ElasticNet(alpha=0.001, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+Fold 0
+0.0199083910202
+Fold 1
+0.0117603203358
+Fold 2
+0.00982717714989
+Fold 3
+0.0092768223998
+Fold 4
+0.00660165879448
+Fold 5
+0.0126268174102
+Fold 6
+0.00821112748515
+Fold 7
+0.00661868827466
+Fold 8
+0.0290332597914
+Fold 9
+0.00748386536019
+2 BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
+Fold 0
+0.0198335715027
+Fold 1
+0.0121248053126
+Fold 2
+0.00964573157559
+Fold 3
+0.00863797950009
+Fold 4
+0.00690409679165
+Fold 5
+0.0136228926296
+Fold 6
+0.00778520311155
+Fold 7
+0.00754432277252
+Fold 8
+0.0282370294551
+Fold 9
+0.00815403171808
+
+Blending.
+rescale to original one
+Saving Results.
+error [ 0.01231465  0.01213481  0.01224897]
+[ 0.33110578  0.33601284  0.33288138]
+[ 11.71860101  11.95141096  12.11925944 ...,  12.06682205  11.68308193
+  12.32915439]
+rescale to original one
+Saving Results.
